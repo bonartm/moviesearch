@@ -8,7 +8,7 @@ def open_file(fname):
 
 setup(
     name='moviesearch',
-    version='0.0.1',
+    version='0.0.2',
     author='Malte Bonart',
     author_email='malte@spiced-academy.com',
     packages=find_packages(),

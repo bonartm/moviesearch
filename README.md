@@ -1,5 +1,7 @@
 # moviesearch
 
+[![pylint](https://github.com/bonartm/moviesearch/actions/workflows/pylint.yml/badge.svg)](https://github.com/bonartm/moviesearch/actions/workflows/pylint.yml)
+
 Moviesearch is a Python library for searching for movies.
 
 ## Installation

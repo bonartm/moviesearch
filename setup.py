@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
+
 def open_file(fname):
     """helper function to open a local file"""
     return open(os.path.join(os.path.dirname(__file__), fname))
@@ -21,13 +22,13 @@ setup(
     long_description=open_file('README.md').read(),
     # end-user dependencies for your library
     install_requires=[
-        'pandas', 
-        'scikit-learn', 
-        'fuzzywuzzy', 
+        'pandas',
+        'scikit-learn',
+        'fuzzywuzzy',
         'python-Levenshtein'
     ],
     # include additional data
-    package_data= {
+    package_data={
         'moviesearch': ['data/*.csv']
     }
 )

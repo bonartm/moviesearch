@@ -7,7 +7,7 @@ Moviesearch is a Python library for searching for movies.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install moviesearch.
 
 ```bash
-pip install moviesearch
+pip install git+https://github.com/bonartm/moviesearch
 ```
 
 ## Usage
